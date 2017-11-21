@@ -10,10 +10,7 @@ package Serie3;
  * @author Pablo Herrera
  */
 public interface PositionalList<ADT> {
-        int size( );
 	boolean isEmpty( );
-	Position<ADT> first( );
-	Position<ADT> last( );
 	Position<ADT> addFirst(ADT e);
 	Position<ADT> addLast(ADT e);
 	Position<ADT> before(Position<ADT> p) throws IllegalArgumentException;
