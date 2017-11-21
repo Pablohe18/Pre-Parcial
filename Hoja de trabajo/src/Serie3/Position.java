@@ -9,6 +9,6 @@ package Serie3;
  *
  * @author Pablo Herrera
  */
-public interface Position<E> {
-    E getElement() throws IllegalStateException;
+public interface Position<ADT> {
+    ADT getElement() throws IllegalStateException;
 }

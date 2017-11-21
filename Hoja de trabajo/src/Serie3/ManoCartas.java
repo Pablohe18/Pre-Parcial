@@ -9,10 +9,10 @@ package Serie3;
  *
  * @author Pablo Herrera
  */
-public class ManoCartas <E>{
+public class ManoCartas <ADT>{
     
     
     public void AgragarCartas(int valor, String categoria){
-        
+            
     }
 }
