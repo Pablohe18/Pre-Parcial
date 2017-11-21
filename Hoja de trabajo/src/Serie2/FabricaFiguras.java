@@ -21,6 +21,7 @@ public class FabricaFiguras {
         System.out.println("El Area de panchito cuadrado es de :" + panchito.getArea());
         panchito.Perimetro();
         System.out.println("El Perimetro de panchito cuadrado es de :" + panchito.getPerimetro());
+        //Fabricar todas las figuras que desee...
     }
     
 }
